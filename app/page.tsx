@@ -4,9 +4,19 @@ const Home = () => {
   return (
     <>
       <main className="main">
+        <header className='header'>
+          <a className='logo'>PETER WONGSOREDJO</a>
+
+          <nav className='navbar'>
+            <a href="#profile">Profile</a>
+            <a href="#Hobbies">Hobbies</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Referral">Referral</a>
+          </nav>
+        </header>
         <div className="PAD">
         </div>
-        <div className="profile">
+        <div id='profile' className="profile">
           <div className="profile-pic">
           <img
             className="profile-image"
@@ -17,7 +27,7 @@ const Home = () => {
           <div className="Name-container">
             <div className="profile-name">
               <p className="Nama">
-                Peter Wongsoredjo
+                PETER WONGSOREDJO
               </p>
             </div>
             <div className="profile-desc">
@@ -28,7 +38,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="MnBnP">
+        <div id='Hobbies' className="MnBnP">
           <div className="MnB-container">
               <div className="MnB-title">
                 <p>HOBBIES</p>
@@ -61,7 +71,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="PnK">
+        <div id='Projects' className="PnK">
           <div className="PnK-title">
             <p>PROJECTS</p>
           </div>
@@ -126,7 +136,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="Referral">
+        <div id='Referral' className="Referral">
           <div className="Personal">
             <div className="WA">
               <div className="WA-img">
