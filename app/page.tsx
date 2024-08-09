@@ -22,8 +22,8 @@ const Home = () => {
             </div>
             <div className="profile-desc">
               <p className="Deskripsi">
-                Seorang mahasiswa Teknik Informatika Institut Teknologi Bandung. Lahir pada tanggal 28 Oktober 2005
-                di Semarang. Memiliki ketertarikan dalam bidang pengembangan perangkat lunak dan teknologi blockchain.
+                An Informatics Engineering student at the Institute Technology of Bandung. Born October 28, 2005
+                in Semarang, Indonesia. Has an interest in software engineering and cryptography.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Home = () => {
                 <div className="MnB-pics">
                   <img className='rotating-img' src="Billiard.png" alt="Billiard" />
                   <img className='rotating-img' src="Basket.png" alt="Basketball" />
-                  <img className='rotating-img' src="Bitcoin.png" alt="" />
+                  <img className='rotating-img' src="Bitcoin.png" alt="Bitcoin" />
                   </div>
                 <div className="MnB-text">
                     <span>BILLIARD</span>
@@ -68,30 +68,58 @@ const Home = () => {
           <div className="KSEP-LC">
             <div className="KSEP">
               <div className="KSEP-pic">
-                <img src="KSEP.png" alt="KSEP ITB" />
+                <img style={{height:160, width:200}} src="KSEP.png" alt="KSEP ITB" />
               </div>
               <div className="KSEP-text">
                 <div className="KSEP-title">
-                  <p>PTD KSEP 2024</p>
+                  <p>KSEP ITB</p>
                 </div>
                 <div className="KSEP-time">
-                  <p>Wakil Kepala Divisi Pendidikan</p>
-                  <p></p>
-                  <p>2024-2025</p>
+                  <p>Staff of Research and Curriculum Development</p>
+                  <p>2024</p>
                 </div>
               </div>
             </div>
             <div className="LC">
               <div className="LC-pic">  
-                <img src="LC.png" alt="Loyola College" />
+                <img style={{height:160, width:128}} src="LC.png" alt="Loyola College" />
               </div>
               <div className="LC-text">
                 <div className="LC-title">
                   <p>PAB SMA Kolese Loyola 2024</p>
                 </div>
                 <div className="LC-time">
-                  <p>Staff Acara</p>
-                  <p></p>
+                  <p>Staff of Events</p>
+                  <p>2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="PTD-INFEST">
+            <div className="PTD">
+              <div className="PTD-pic">
+                <img style={{height:160, width:160}} src="PTD.png" alt="PTD KSEP" />
+              </div>
+              <div className="PTD-text">
+                <div className="PTD-title">
+                  <p>PTD KSEP ITB 2024</p>
+                </div>
+                <div className="PTD-time">
+                  <p>Deputy Head of Education</p>
+                  <p>2024 - 2025</p>
+                </div>
+              </div>
+            </div>
+            <div className="INFEST">
+              <div className="INFEST-pic">  
+                <img style={{height:160, width:160}} src="INFEST.png" alt="INFEST ITB" />
+              </div>
+              <div className="INFEST-text">
+                <div className="INFEST-title">
+                  <p>INFEST ITB 2024</p>
+                </div>
+                <div className="INFEST-time">
+                  <p>Staff of Operations</p>
                   <p>2024</p>
                 </div>
               </div>

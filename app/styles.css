@@ -14,17 +14,18 @@ p{
 .profile{
     display: flex;
     padding: 20px;
+    padding-bottom: 40px;
     margin-left: 100px;
 }
 
 .profile-pic {
     width: 400px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .profile-image {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
 }
 
@@ -40,34 +41,35 @@ p{
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 100px;
-    max-width: 750px;
+    max-width: 800px;
 }
 
 .Nama{
     color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .Deskripsi{
     color: grey;
-    font-size: 12px;
+    font-size: 20px;
+    text-align: justify;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.MnBnP, .KSEP-LC{
+.MnBnP, .KSEP-LC, .PTD-INFEST{
     display: flex;
 }
 
 .MnB-container{
     width: 40%;
-    height: 250px;
+    height: 265px;
     padding: 10px;
 }
 
 .MnB-title{
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -96,20 +98,17 @@ p{
 }
 
 .MnB-text{
-    margin-top: 10px;
-    margin-bottom: 10px;
     overflow: hidden;
-    align-items: center;
 }
 
 span{
     margin-top: 10px;
     color:black;
     display: block;
-    padding: 20px;
+    padding: 25px;
     font-size: 40px;
     height: 70%;
-    border: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     animation: spin_words 10s infinite;
 }
 
@@ -134,18 +133,82 @@ span{
 .Pencapaian-container{
     width: 60%;
     background-color: pink;
-    height: 250px;
+    height: 265px;
     padding: 10px;
 }
 
-.KSEP, .LC{
+.PnK-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: 100px;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font: oxygen;
+    font-weight: bold;
+}
+
+
+.KSEP, .LC, .PTD, .INFEST{
+    padding: 15px;
     display: flex;
     width: 50%;
+}
+
+.KSEP-pic, .LC-pic, .INFEST-pic, .PTD-pic{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.KSEP-pic:hover, .LC-pic:hover, .INFEST-pic:hover, .PTD-pic:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.KSEP-text, .LC-text, .PTD-text, .INFEST-text{
+    padding: 10px;
+}
+
+.KSEP-title, .LC-title, .PTD-title, .INFEST-title{
+    padding-bottom: 10px;
+}
+
+.KSEP-title p, .LC-title p, .PTD-title p, .INFEST-title p{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.KSEP-time p, .LC-time p, .PTD-time p, .INFEST-time p{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.WA-img, .IG-img, .EM-img, .GH-img, .LI-img, .LN-img{
+    height: 50px;
+    width: 50px;
 }
 
 .Referral{
     display: flex;
     background-color: black;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.Referral p{
+    color: white;
 }
 
 .Personal, .Professional{
@@ -153,20 +216,6 @@ span{
 }
 
 .WA, .IG, .LN, .EM, .GH, .LI{
+    padding: 15px;
     display: flex;
-}
-
-.KSEP-pic{
-    height: 120px;
-    width: 150px;
-}
-
-.LC-pic{
-    height: 120px;
-    width: 96px;
-}
-
-.WA-img, .IG-img, .EM-img, .GH-img, .LI-img, .LN-img{
-    height: 50px;
-    width: 50px;
 }
