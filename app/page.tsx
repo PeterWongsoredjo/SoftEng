@@ -1,12 +1,16 @@
 import './styles.css';
-import Head from 'next/head';
+import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'PETER WONGSOREDJO',
+  description:
+    'A Webpage that contains information about Peter Wongsoredjo',
+};
 
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>PROFILE</title>
-      </Head>
       <main className="main">
         <header className='header'>
           <a className='logo'>PETER WONGSOREDJO</a>
