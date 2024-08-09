@@ -1,8 +1,12 @@
 import './styles.css';
+import Head from 'next/head';
 
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>PROFILE</title>
+      </Head>
       <main className="main">
         <header className='header'>
           <a className='logo'>PETER WONGSOREDJO</a>
@@ -58,16 +62,19 @@ const Home = () => {
               </div>
           <div className="Pencapaian-container">
             <div className="Pencapaian-title">
-              <p>PENCAPAIAN</p>
+              <p>ACHIEVEMENTS</p>
             </div>
-            <div className="Penc-1">
-              <p>GATAU</p>
-            </div>
-            <div className="Penc-2">
-              <p>BINGUNG</p>
-            </div>
-            <div className="Penc-3">
-              <p>WKWKWKWKW</p>
+            <div className='Pencapaian-2'>
+              <div className="Pencapaian">
+                <div className="Pencapaian-pics">
+                  <img id='Sertifikat' src="magang.png" alt="Certificate" />
+                  <img id='Ijazah' src="ijazah.jpg" alt="Diploma" />
+                </div>
+                <div className="Pencapaian-slider">
+                  <a href="#Sertifikat"></a>
+                  <a href="#Ijazah"></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

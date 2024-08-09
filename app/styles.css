@@ -133,7 +133,7 @@ p{
     padding: 10px;
 }
 
-.MnB-title{
+.MnB-title, .Pencapaian-title{
     font-size: 50px;
     font-weight: bold;
     display: flex;
@@ -198,9 +198,63 @@ span{
 
 .Pencapaian-container{
     width: 60%;
-    background-color: pink;
     height: 265px;
     padding: 10px;
+}
+
+.Pencapaian-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pencapaian{
+    position: relative;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pencapaian-pics{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 25px 30px -10px hsla(0, 0, 0, 0.25);
+}
+
+.Pencapaian-pics::-webkit-scrollbar {
+    display: none;  
+}
+
+.Pencapaian-pics img{
+    scroll-snap-align: start;
+    flex: 1 0 100%;
+}
+
+.Pencapaian-slider{
+    display: flex;
+    column-gap: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.Pencapaian-slider a{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.75;
+    background-color: #fff;
+    transition: opacity ease 250ms;
+}
+
+.Pencapaian-slider a:hover{
+    opacity: 1;
 }
 
 .PnK-title{
