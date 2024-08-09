@@ -33,31 +33,19 @@ const Home = () => {
               <div className="MnB-title">
                 <p>HOBBIES</p>
               </div>
-              <div className="billiard">
-                <div className="billiard-image">
-                  <img src="Billiard.png" alt="Billiard" />
-                </div>
-                <div className="billiard-text">
-                  <p>BILLIARD</p>
-                </div>
-              </div>
-              <div className="basket">
-                <div className="basket-image">
-                  <img src="Basket.png" alt="Basketball" />
-                </div>
-                <div className="basket-text">
-                  <p>BASKETBALL</p>
+              <div className="MnB">
+                <div className="MnB-pics">
+                  <img className='rotating-img' src="Billiard.png" alt="Billiard" />
+                  <img className='rotating-img' src="Basket.png" alt="Basketball" />
+                  <img className='rotating-img' src="Bitcoin.png" alt="" />
+                  </div>
+                <div className="MnB-text">
+                    <span>BILLIARD</span>
+                    <span>BASKETBALL</span>
+                    <span>CRYPTOCURRENCY</span>
+                  </div>
                 </div>
               </div>
-              <div className="crypto">
-                <div className="crypto-image">
-                  <img src="Bitcoin.png" alt="" />
-                </div>
-                <div className="crypto-text">
-                  <p>CRYPTOCURRENCY</p>
-                </div>
-              </div>
-          </div>
           <div className="Pencapaian-container">
             <div className="Pencapaian-title">
               <p>PENCAPAIAN</p>
